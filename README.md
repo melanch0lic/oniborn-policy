@@ -5,6 +5,8 @@ The privacy policy of ONIBORN, the roguelite game for Android and iOS, published
 Public URL (the one entered in Google Play Console and App Store Connect, and linked from the game's
 Settings → About): https://melanch0lic.github.io/oniborn-policy/
 
+Support page (the App Store's Support URL): https://melanch0lic.github.io/oniborn-policy/support.html
+
 ## What it describes
 
 The policy describes what the ONIBORN apps actually do with data, as audited in their code on
@@ -24,7 +26,8 @@ network call, a permission, accounts, purchases or cloud saves.
 
 ## Updating the policy
 
-1. Edit `index.html`: the content and both "Last updated" dates (the header's `<time>` and the footer).
+1. Edit `index.html` (or `support.html`, the help page: keep its answers in step with the game's
+   labels in `lib/l10n/app_en.arb`): the content and both "Last updated" dates (the header's `<time>` and the footer).
 2. Open it in a browser to check it.
 3. Commit and push to `main`. GitHub Pages republishes the site in a minute or two at the same URL.
 
