@@ -1,22 +1,26 @@
 # ONIBORN Privacy Policy
 
-The privacy policy of ONIBORN, the offline roguelite game for Android, published with GitHub Pages.
+The privacy policy of ONIBORN, the roguelite game for Android and iOS, published with GitHub Pages.
 
-Public URL (the one entered in Google Play Console): https://melanch0lic.github.io/oniborn-policy/
+Public URL (the one entered in Google Play Console and App Store Connect, and linked from the game's
+Settings → About): https://melanch0lic.github.io/oniborn-policy/
 
 ## What it describes
 
-The policy describes what the ONIBORN Android app actually does with data, as audited in its code
-on 2026-10-26:
+The policy describes what the ONIBORN apps actually do with data, as audited in their code on
+2026-11-25 (version 1.5.0):
 
-- no accounts, ads, analytics, crash reporting, purchases or notifications;
-- no `INTERNET` permission in the release build, and no runtime permissions;
-- progress, settings and a local diagnostic journal kept only in the app's private storage;
-- Android Auto Backup left at its default (on), so saves may be in the user's Google backup.
+- offline play; progress, settings and a local diagnostic journal kept only in the app's private storage;
+- the optional Hall of Legends (Supabase): anonymous account created only when the player picks a
+  nickname; nickname and run results stored and shown publicly; Leave in Settings deletes them
+  (`delete_my_leaderboard_data`);
+- the update check: a public versions file on GitHub Pages, and Google Play in-app updates on Android;
+- no ads, analytics, tracking, crash reporting or purchases; the support link is Android only;
+- device backups left at their defaults (Android Auto Backup, iCloud / computer backup on iOS).
 
-It must stay in sync with the app. Update it **before** releasing a version that adds an SDK
-(Firebase, AdMob, Play Games, ...), a network call, a permission, accounts, purchases or cloud
-saves, and update the Google Play Data safety form at the same time.
+It must stay in sync with the app, the Google Play Data safety form, the App Store privacy answers and
+`ios/Runner/PrivacyInfo.xcprivacy`. Update it **before** releasing a version that adds an SDK, a
+network call, a permission, accounts, purchases or cloud saves.
 
 ## Updating the policy
 
